@@ -6,6 +6,7 @@ const apikey = "1df1779b66d82802e067653a7057ac0c";
   const search1 = document.getElementById("searchh");
   const button = document.getElementById("button");
   const temp = document.getElementById("temp");
+  const humidity = document.getElementById("humid");
 
   button.addEventListener("click", async () => {
     let cityname = search1.value;
@@ -18,8 +19,9 @@ const apikey = "1df1779b66d82802e067653a7057ac0c";
       console.log(result);
 
 	temp.innerText = (result.main.temp-273.16).toFixed(2);
+  humidity.innerText = result.main.humidity+"%";
     } catch (error) {
-      console.error(error);
+      alert(error);
     }
   });
 
