@@ -7,9 +7,15 @@ body{
     /* width: 100vw; */
     padding: 0%;
 }
+
 .one{
     /* border: 2px solid rgb(178, 0, 0); */
     border-radius: 15px ;
+}
+.weather2{
+    border: 1px solid rgb(72, 72, 202);
+    border-radius: 15px;
+    
 }
 .two{
     width: 100%;
@@ -33,3 +39,36 @@ span{
     border-radius: 12px;
 }
 
+
+.images{
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+.images2{
+    width: 30px;
+    margin: 0;
+    height: auto;
+}
+#humid{
+    height:auto
+}
+.images3{
+    width: 30%;
+    /* height: 40px; */
+}
+.images5{
+    /* background-color: maroon; */
+    width: 100%;
+    margin: 0;
+}
+.images4{
+    width: 40px;
+    /* background-color: darkgoldenrod; */
+}
+.four{
+    width: auto;
+}
+.last{
+    color: white;
+}
